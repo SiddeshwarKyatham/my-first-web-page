@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F8F9FA;
+            color: #212529;
+        }
+        .header {
+            background-color: #343A40;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #495057;
+        }
+        .nav a {
+            color: #fff;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .nav a:hover {
+            background-color: #343A40;
+        }
+        .main-content, .section {
+            padding: 25px;
+            text-align: center;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-top: 25px;
+        }
+        .content {
+            flex: 2;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .latest-news {
+            flex: 1;
+            max-height: calc(100vh - 160px);
+            overflow-y: scroll;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            margin-left: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .latest-news ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .latest-news li {
+            margin-bottom: 10px;
+        }
+        .latest-news a {
+            color: #495057;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .latest-news a:hover {
+            color: #17A2B8;
+        }
+        .section h2 {
+            color: #495057;
+            font-size: 24px;
+        }
+        .section p {
+            color: #495057;
+            font-size: 18px;
+        }
+        .footer {
+            background-color: #343A40;
+            color: #fff;
+            text-align: center;
+            padding: 25px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .footer a {
+            color: #17A2B8;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>InnovSolutions</h1>
+        <p>"Ignite Ideas, Empower Innovation."</p>
+    </div>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="recommendations.html">Recommendations</a>
+        <a href="careers.html">Careers</a>
+        <a href="about.html">About Us</a>
+    </div>
+    <div class="main-content">
+        <div class="content">
+            <h1>Empowering Startups to Turn Ideas into Reality</h1>
+            <p>We provide tailored solutions, expert mentorship, and cutting-edge resources to help entrepreneurs transform innovative ideas into thriving businesses.</p>
+        </div>
+        <div class="latest-news" id="news">
+            <h2>Latest News</h2>
+            <ul>
+                <li><a href="#">Stay updated with the latest news and events from our company.</a></li>
+                <li><a href="#">Global Startup Funding Reaches $300 Billion in 2024</a></li>
+                <li><a href="#">AI-Powered Startups Dominate the Market in 2025</a></li>
+                <li><a href="#">Top 10 Startup Cities in the World for 2025</a></li>
+                <li><a href="#">5 Strategies for Securing Early-Stage Funding</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contact us at: <a href="contact@innovsolutions.com">contact@innovsolutions.com</a> | Phone: +1 (123) 456-7890</p>
+        <p>
+            <a href="https://www.facebook.com">Facebook</a> |
+            <a href="https://www.twitter.com">Twitter</a> |
+            <a href="https://www.linkedin.com">LinkedIn</a> |
+            <a href="https://www.instagram.com">Instagram</a>
+        </p>
+        &copy; 2025 innovsolutions. All rights reserved.
+    </div>
+</body>
+</html>
